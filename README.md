@@ -1,2 +1,2 @@
-# ben-scripts
+# project-scripts
 Common Scripts and setup files across projects
