@@ -30,14 +30,25 @@ module.exports = api => {
 ## ESLint
 To use the eslint configuration create `.eslintrc.js` in your root directory then add the following:
 
+### Options
+
+|Name|Type|Default|Description|
+|:--:|:--:|:-----:|:----------|
+|`language`|`{String}`|`'javascript'`|Provides language specific linting rules|
+
+### Example
 ```js
-  module.exports = require('javascript-project-scripts/.eslintrc.js');
+  const options = {
+    language: 'javascript',
+  };
+
+  module.exports = require('javascript-project-scripts/lib/eslintrc.js')(options);
 ```
 
 Secondly create `.prettierrc.js` in your root directory and add the following:
 
 ```js
-  module.exports = require('javascript-project-scripts/.prettierrc.js');
+  module.exports = require('javascript-project-scripts/lib/prettierrc.js');
 ```
 
 ## Webpack

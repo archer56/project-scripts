@@ -1,1 +1,1 @@
-module.exports = require('./lib/.eslintrc.js');
+module.exports = require('./lib/eslintrc.js')({ language: 'javascript' });
