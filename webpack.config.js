@@ -1,2 +1,1 @@
-module.exports = (options = {}) =>
-  require('./lib/webpack/webpack.config')(options);
+module.exports = (options = {}) => require('./lib/webpack/webpack.config')(options);
