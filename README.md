@@ -56,11 +56,6 @@ Secondly create `.prettierrc.js` in your root directory and add the following:
 ### Required dependancies
 **Remove** all references to babel and webpack that you are not actively using. (We will take care of most of the dependancies)
 
-**Add** the following dependancies 
-```sh
-  yarn add --dev mini-css-extract-plugin
-```
-
 ### Setup
 - Create a file in the root directory called `webpack.config.js`
 - The following are `required` fields:
@@ -74,7 +69,7 @@ Secondly create `.prettierrc.js` in your root directory and add the following:
 ```js
   const webpackConfig = require('javascript-project-scripts/webpack.config');
   const path = require('path');
-  const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+  const { MiniCssExtractPlugin } = require('javascript-project-scripts');
 
   const options = {};
 
@@ -104,6 +99,7 @@ This applies to both the Full and Tiered setups
 |`assetsDir`|`{String}`|`'assets'`|Sets where in the distribution file defined in `output` where assets such as images and css files will be stored.|
 |`relativeModulesPath`|`{String}`|`'./node_modules'`|For Projects that have non-standard setups or are mono-repos. This allows points webpack to the hoisted node_modules location.|
 |`sourceMap`|`{Boolean}`|`false`|Enables source maps across, CSS and JavaScript.|
+|`devServerOptions`|`{Object}`|`{}`|Overides to the default webpack dev server settings|
 
 ### PostCss loader
 This loader lives inside the css rules, you need to define a config that can be empty if you don't want it to do anything, but we advice you take the config from `javascript-project-scripts`.

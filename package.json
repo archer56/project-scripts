@@ -23,6 +23,7 @@
     "babel-loader": "^8.1.0",
     "babel-plugin-lodash": "^3.3.4",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "copy-webpack-plugin": "^7.0.0",
     "css-loader": "^3.4.2",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
@@ -33,8 +34,9 @@
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^3.0.0",
     "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.5.1",
     "lodash": "^4.17.15",
-    "mini-css-extract-plugin": "0.9.0",
+    "mini-css-extract-plugin": "^1.3.3",
     "node-sass": "^4.14.0",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
@@ -46,13 +48,11 @@
     "sass-loader": "^8.0.2",
     "typescript": "^4.0.2",
     "url-loader": "^4.0.0",
-    "webpack": "^4.42.1",
+    "webpack": "^5.12.2",
     "webpack-cli": "^3.3.11",
-    "webpack-merge": "^4.2.2",
+    "webpack-dev-server": "^3.11.1",
+    "webpack-merge": "^5.7.3",
     "which": "^2.0.2"
-  },
-  "peerDependencies": {
-    "mini-css-extract-plugin": "0.9.0"
   },
   "repository": {
     "type": "git",
