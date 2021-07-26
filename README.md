@@ -99,7 +99,8 @@ This applies to both the Full and Tiered setups
 |`assetsDir`|`{String}`|`'assets'`|Sets where in the distribution file defined in `output` where assets such as images and css files will be stored.|
 |`relativeModulesPath`|`{String}`|`'./node_modules'`|For Projects that have non-standard setups or are mono-repos. This allows points webpack to the hoisted node_modules location.|
 |`sourceMap`|`{Boolean}`|`false`|Enables source maps across, CSS and JavaScript.|
-|`devServerOptions`|`{Object}`|`{}`|Overides to the default webpack dev server settings|
+|`devServerOptions`|`{Object}`|`{}`|Overrides to the default webpack dev server settings|
+|`sourceDir`|`{String}`|`./src`|Sets the source Directory|
 
 ### PostCss loader
 This loader lives inside the css rules, you need to define a config that can be empty if you don't want it to do anything, but we advice you take the config from `javascript-project-scripts`.
