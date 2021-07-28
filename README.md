@@ -118,7 +118,7 @@ Create a file called `postcss.config.js` on your root directory.
 - `NODE_ENV` must be **explicitly** set to production when building the production bundle.
 
 ## TypeScript
-### Babel
+### ESlint
 Ensure Babel language is set to `typescript`
 
 ### TS Config
