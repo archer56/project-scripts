@@ -122,4 +122,9 @@ Create a file called `postcss.config.js` on your root directory.
 Ensure Babel language is set to `typescript`
 
 ### TS Config
-Right now we unfortunately have to copy and paste the `tsconfig.json`. It can be found in the root directory of this library. Put it in the root directory of your application.
+Add the file `tsconfig.json` to the root directory and add the following
+```json
+{
+  "extends": "javascript-project-scripts/tsconfig.json",
+}
+```
