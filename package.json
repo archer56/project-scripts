@@ -1,6 +1,6 @@
 {
   "name": "javascript-project-scripts",
-  "version": "5.2.4",
+  "version": "5.2.5",
   "description": "Common Scripts and setup files across projects",
   "main": "./index.js",
   "scripts": {
