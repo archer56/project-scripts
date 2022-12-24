@@ -8,6 +8,12 @@
     "allowJs": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop" : true
+    "esModuleInterop" : true,
+    "compilerOptions": {
+      "lib": [
+        "ES2018",
+        "DOM"
+      ]
+    },
   }
 }
