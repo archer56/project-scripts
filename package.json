@@ -1,6 +1,6 @@
 {
   "name": "javascript-project-scripts",
-  "version": "7.0.1",
+  "version": "8.0.0",
   "description": "Common Scripts and setup files across projects",
   "main": "./index.js",
   "scripts": {
@@ -9,8 +9,8 @@
     "publish:minor": "npm version minor && npm publish",
     "publish:major": "npm version major && npm publish"
   },
-  "engines" : { 
-    "node" : ">=20.0.0"
+  "engines": {
+    "node": ">=20.0.0"
   },
   "dependencies": {
     "@babel/core": "7.20.2",
