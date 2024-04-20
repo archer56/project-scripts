@@ -9,11 +9,9 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop" : true,
-    "compilerOptions": {
-      "lib": [
-        "ES2018",
-        "DOM"
-      ]
-    },
+    "lib": [
+      "ES2018",
+      "DOM"
+    ]
   }
 }
